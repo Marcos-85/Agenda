@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+    font-weight: bold;
+}
+
+.notes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note {
+    margin-bottom: 5px;
+}
+
+.note-input {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.note-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.header-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
